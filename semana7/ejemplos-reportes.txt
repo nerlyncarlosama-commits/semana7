@@ -1,0 +1,11 @@
+Ejemplo 1:
+{
+  "tipo": "Seguridad",
+  "descripcion": "Falta de policía en el parque principal"
+}
+
+Ejemplo 2:
+{
+  "tipo": "Aseo",
+  "descripcion": "El camión de basura no pasa hace 3 días"
+}

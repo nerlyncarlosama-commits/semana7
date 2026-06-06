@@ -1,0 +1,13 @@
+Prueba de la API:
+
+POST a /reportes con {"tipo":"Infraestructura","descripcion":"Daño en alumbrado"}
+Respuesta: {"mensaje":"Reporte registrado","reporte":{"id":1,"tipo":"Infraestructura","descripcion":"Daño en alumbrado"}}
+
+GET a /reportes
+Respuesta: [{"id":1,"tipo":"Infraestructura","descripcion":"Daño en alumbrado"}]
+
+POST a /reportes con {"tipo":"Ambiente","descripcion":"Basura acumulada"}
+Respuesta: {"mensaje":"Reporte registrado","reporte":{"id":2,"tipo":"Ambiente","descripcion":"Basura acumulada"}}
+
+GET a /reportes
+Respuesta: [{"id":1,"tipo":"Infraestructura","descripcion":"Daño en alumbrado"},{"id":2,"tipo":"Ambiente","descripcion":"Basura acumulada"}]
